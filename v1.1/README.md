@@ -1,4 +1,4 @@
-# TRS80IUS Kicad, Gerbers and iBOM
+# TRS80 Model I 1700069G Kicad, Gerbers and iBOM
 
 v1.1 Initial Public Release
 

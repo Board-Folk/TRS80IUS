@@ -2,9 +2,11 @@
 
 A remake of the TRS-80 Model I 1700069G motherboard.
 
-![Build Board in Green](https://github.com/Board-Folk/TRS80IUS/blob/main/images/builtboard_usv1.0_small.jpg)
+![Built Board in Green](https://github.com/Board-Folk/TRS80IUS/blob/main/images/builtboard_usv1.0_small.jpg)
 
-This reposistory contains the BOM, gerbers and Kicad files for a remake of the final version, as far as we know, of the TRS-80 Model I original American version motherboard and some related projects and files. This project spawned after publishing its sister project, a recreation of the [TEC, Japanese version which can be found here](https://github.com/Board-Folk/TRS80IJP).
+This reposistory contains the BOM, gerbers and Kicad files for a remake of the final version as far as we know, of the TRS-80 Model I original American version motherboard and some related projects and files. This project spawned after publishing its sister project, a recreation of the [TEC, Japanese version which can be found here](https://github.com/Board-Folk/TRS80IJP).
+
+This is intended as a replica, but additional headers have been provided for the common modification of the 8 bit character set - "BIT6" and "D6" - and "L8" for connection of a character ROM substitute like the Gendon3 module. If original operation with 7-bit characters is required, solder jumper UC should be connected. No additional capacitors were added as factory, provided for, for example horizontal and vertical stabalization. You'll still need to add those yourself.
 
 ## Version 1.1 Bill-of-Materials
 
@@ -27,16 +29,16 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|C21|750pF|Ceramic Capacitor||
 |2|C24, C25|220pF|Ceramic Capacitor||
 |1|C43|47pF|Ceramic Capacitor||
-|1|CR1|1N4735A|Zener Diode||
-|1|CR2|1N4733A|Zener Diode||
+|1|CR1|1N4735A|6.2V Zener Diode||
+|1|CR2|1N4733A|5.1V Zener Diode||
+|2|CR9, CR10|1N982|75V Zener Diode||
 |5|CR3-CR7|1N4148|Small Signal Diode||
 |1|CR8|S2V B20|Rectifier||
-|2|CR9, CR10|1N982|Small Signal Diode||
 |1|Q1|MPS3904|Transistor TO-92||
 |2|Q2, Q5|MPS3906|Transistor TO-92||
 |1|Q3|TIP29A|Transistor TO-220||
-|1|Q4|2N6594|Transistor TO-3||
-|1|Q6|MJE34|Transistor TO-220||
+|1|Q4|2N6594|Transistor TO-3|See Links|
+|1|Q6|MJE34|Transistor TO-220|See Links|
 |1|R18|5R6 3W|Resistor||
 |1|R4|0R33 2W|Resistor||
 |1|R1|68R 1/2W|Resistor||
@@ -101,16 +103,18 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |2|Z56, Z58|74LS92|IC||
 |1|Z66|74LS11|IC||
 |1|Z74|74LS00|IC||
-|1|Y1|10.6445MHz HC-49 Crystal|Crystal Oscillator||
+|1|Y1|10.6445MHz HC-49 Crystal|Crystal Oscillator|See Links|
 |2|Z3, Z71|DIP16 Switch or Jumper Block|Switch||
 |1|S1|Power Switch|Switch||
 |1|S2|Reset Switch|Switch||
-|3|J1,J2,J3|5 Pin DIN Socket|Socket||
+|3|J1,J2,J3|DIN5 180-degree Socket|Socket||
 |1|K1|5V Reed Relay|Relay|Sensata-Cynergy3 S2-05P|
 
 ## Links
 
   [10.6445Mhz HC49U Quartz Crystal (UK)](https://www.mutant-caterpillar.co.uk/shop/product_info.php?products_id=5174)<br>
+  [MJ15016 Transistor (Q4 Substitute) (UK)](https://www.cricklewoodelectronics.com/MJ15016.html)<br>
+  [MJE15031 Transistor (Q6 Substitute) (UK)](https://www.cricklewoodelectronics.com/MJE15031.html)
 
 ## Credits
 
@@ -118,7 +122,7 @@ PCB Layout by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandoldi
 
 ## Thanks
 
-  * The rest of the Board Folk
+  * Chrissy @chris_jh and the rest of the Board Folk Team.
   * Adrian Black and friends for their test ROM which has been invaluable during testing. [TRS-80 Diagnostic ROM](https://github.com/misterblack1/trs80-diagnosticrom).
 
 ## Legal
