@@ -4,7 +4,7 @@ A remake of the TRS-80 Model I 1700069G motherboard.
 
 ![Built Board in Green](https://github.com/Board-Folk/TRS80IUS/blob/main/images/builtboard_usv1.0_small.jpg)
 
-This reposistory contains the BOM, gerbers and Kicad files for a remake of the final version as far as we know, of the TRS-80 Model I original American version motherboard and some related projects and files. This project spawned after publishing its sister project, a recreation of the [TEC, Japanese version which can be found here](https://github.com/Board-Folk/TRS80IJP).
+This reposistory contains the BOM, gerbers and Kicad files for a remake of the final 'G' version (as far as we know), of the TRS-80 Model I original American version motherboard and some related projects and files. This project spawned after publishing its sister project, a recreation of the [TEC, Japanese version which can be found here](https://github.com/Board-Folk/TRS80IJP).
 
 This is intended as a replica, but additional headers have been provided for the common modification of the 8 bit character set - "BIT6" and "D6" - and "L8" for connection of a character ROM substitute like the Gendon3 module. If original operation with 7-bit characters is required, solder jumper UC should be connected. No additional factory bodge capacitors were added either, for example the ones for the horizontal and vertical sync stabalization. You'll still need to add those yourself.
 
