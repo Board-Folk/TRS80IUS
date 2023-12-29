@@ -2,7 +2,9 @@
 
 A remake of the TRS-80 Model I 1700069G motherboard.
 
-This reposistory contains the BOM, gerbers and Kicad files for a remake of the final version, as far as we are aware, of the TRS-80 Model I original American motherboard and some related projects and files. This project spawned after publishing it's sister project, a recreation of the [TEC, Japanese version](https://github.com/Board-Folk/TRS80IJP).
+![Build Board in Green](https://github.com/Board-Folk/TRS80IUS/blob/main/images/builtboard_usv1.0_small.jpg)
+
+This reposistory will contain the BOM, gerbers and Kicad files for a remake of the final version, as far as we know, of the TRS-80 Model I original American version motherboard and some related projects and files. This project spawned after publishing its sister project, a recreation of the [TEC, Japanese version which can be found here](https://github.com/Board-Folk/TRS80IJP).
 
 ## Links
 
