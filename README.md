@@ -105,8 +105,8 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|Z74|74LS00|IC||
 |1|Y1|10.6445MHz HC-49 Crystal|Crystal Oscillator|See Links|
 |2|Z3, Z71|DIP16 Switch or Jumper Block|Switch||
-|1|S1|Power Switch|Switch||
-|1|S2|Reset Switch|Switch||
+|1|S1|Power Switch|Switch|Information to follow|
+|1|S2|Reset Switch|Switch|Information to follow|
 |3|J1,J2,J3|DIN5 180-degree Socket|Socket||
 |1|K1|5V Reed Relay|Relay|Sensata-Cynergy3 S2-05P|
 
