@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TRS80IUS")(type "KiCad")(uri "${KIPRJMOD}/TRS80IUS.kicad_sym")(options "")(descr ""))
+)
