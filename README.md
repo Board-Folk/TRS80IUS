@@ -8,7 +8,7 @@ This reposistory contains the BOM, gerbers and Kicad files for a remake of the f
 
 ## Version 1.1 Bill-of-Materials
 
-All resistors 1/4W and capacitors 5mm pitch unless specified. Suggested substitutes might be wrong. Any feedback welcome.
+All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any feedback welcome.
 
 |Qty|Reference(s)|Value|Type|Notes|
 |:--:|:--:|:--:|:--:|:--:|
