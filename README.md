@@ -43,16 +43,15 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|R19|220R 1/2W|Resistor||
 |1|R2|2K7|Resistor||
 |1|R3|750R|Resistor||
-|1|R5|1K|Resistor||
+|2|R5, R10|1K|Potentiometer||
 |4|R6, R7, R16, R53|1K2|Resistor||
 |1|R8|100K|Resistor||
 |3|R9, R11, R12|3K3|Resistor||
-|1|R10|1K|Resistor||
 |1|R13|2K2|Resistor||
 |1|R14|12K|Resistor||
 |1|R15|1K5|Resistor||
 |1|R17|2K|Resistor||
-|2|R20, R21|100K|Resistor||
+|2|R20, R21|100K|Potentiometer||
 |1|R22|75R|Resistor||
 |1|R23|120R|Resistor||
 |1|R24|680K|Resistor||
