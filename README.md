@@ -20,8 +20,8 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|C8|2200uF 35V|Electrolytic Capacitor (Axial)||
 |1|C9|10000uF 16V|Electrolytic Capacitor (Axial)||
 |1|C42|22uF 16V|Electrolytic Capacitor||
-|1|C26|0.047uF|Polypropylene Capacitor||
-|1|C27|0.022uF|Polypropylene Capacitor||
+|1|C26|0.047uF|Film Capacitor||
+|1|C27|0.022uF|Film Capacitor||
 |35|C16-C19, C22, C23, C28-C34, C35-C39, C40, C41, C44-C56, C58, C59|100nF|Ceramic Capacitor||
 |4|C3, C7, C14, C15|10nF|Ceramic Capacitor||
 |2|C12, C13|470pF|Ceramic Capacitor||
@@ -45,7 +45,7 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|R19|220R 1/2W|Resistor||
 |1|R2|2K7|Resistor||
 |1|R3|750R|Resistor||
-|2|R5, R10|1K|Potentiometer||
+|2|R5, R10|1K|Potentiometer|Piher PT10LH01|
 |4|R6, R7, R16, R53|1K2|Resistor||
 |1|R8|100K|Resistor||
 |3|R9, R11, R12|3K3|Resistor||
@@ -53,7 +53,7 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|R14|12K|Resistor||
 |1|R15|1K5|Resistor||
 |1|R17|2K|Resistor||
-|2|R20, R21|100K|Potentiometer||
+|2|R20, R21|100K|Potentiometer|Piher PT10LH01|
 |1|R22|75R|Resistor||
 |1|R23|120R|Resistor||
 |1|R24|680K|Resistor||
@@ -75,7 +75,7 @@ All resistors 1/4W unless specified. Suggested substitutes might be wrong. Any f
 |1|R63|4.7K|Resistor||
 |1|R167|100R|Resistor||
 |1|Z40|Z80CPU|IC||
-|1|Z29|MCM667X|IC||
+|1|Z29|MCM667X|IC|Character ROM|
 |8|Z13-Z20|4116 RAM|IC||
 |7|Z45-Z48, Z61-Z63|2102 RAM|IC|8 if modified for 8 bit characters|
 |1|Z33|2364 ROM|IC||
